@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    font-family: Manrope, serif;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("Imagens/Fundo.jpg");
+    background-size: cover;
+    flex-direction: column;
+    
+}
+
+.sombra1{
+   
+    padding-top: 5%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra2{
+   
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: 100%;
+    height: 0vh;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+.sombra3{
+   
+    padding-top: 3%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 1vh;
+    justify-content: space-around;
+    align-items: bottom;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra4{
+   
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra5{
+   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra6{
+   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra7{
+   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra8{
+   
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.sombra9{
+   
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.347);
+   
+}
+
+.foto{
+    padding: 10%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-image: url(Imagens/foto.jpg);
+    background-position :bottom;
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 3%;
+
+}
+
+.nome{
+    padding: 2% 5%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5vh;
+    font-size: 120%;
+
+}
+
+.redes{
+    padding: 0.5% 30%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5vh;
+    font-size: 80%;
+
+}
+
+.GitHub{
+    padding: 5%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-image: url(Imagens/github.png);
+    background-position: center;
+    background-size: 180%;
+    border-radius: 50%;
+    font-size: 3vh;
+}
+
+
+.LinkedIn{
+    padding: 5%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-image: url(Imagens/linkedin.png);
+    background-position: center;
+    background-size: 110%;
+    border-radius: 50%;
+    font-size: 3vh;
+    https://www.google.com" target="_blank"
+}
+
+.Instagram{
+    padding: 5%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-image: url(Imagens/instagram.png);
+    background-position: center;
+    background-size: 110%;
+    border-radius: 50%;
+    font-size: 3vh;
+}
+
+.experiencia{
+    padding: 0.5% 30%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5vh;
+    font-size: 100%;
+
+}
+
+.alberflex{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    width: 1%;
+    height: 1%;
+    background-image: url(Imagens/alberflex.jpg);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 10vh;
+    font-size: 3rem;
+    
+
+}
+
+.alber{
+    padding: 3%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5vh;
+    font-size: 120%;
+    color:rgb(0, 0, 91);
+    align-items: center;
+    justify-content:flex-start;
+
+}
+
+.schaeffler{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    width: 1%;
+    height: 1%;
+    background-image: url(Imagens/schaeffler.png);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 10vh;
+    font-size: 3rem;
+    
+
+}
+
+.schaef{
+    padding: 3% 7.5%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5vh;
+    font-size: 120%;
+    color:rgb(0, 0, 91);
+    align-items: center;
+    justify-content:flex-start;
+
+}
+
+.schaeffler1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    width: 1%;
+    height: 1%;
+    background-image: url(Imagens/schaeffler.png);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 10vh;
+    font-size: 3rem;
+    
+
+}
+
+.schaef1{
+    padding: 3% 6.5%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5vh;
+    font-size: 120%;
+    color:rgb(0, 0, 91);
+    align-items: center;
+    justify-content:flex-start;
+
+}
+
+.metaltec{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    width: 1%;
+    height: 1%;
+    background-image: url(Imagens/metaltec.png);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 10vh;
+    font-size: 3rem;
+    
+
+}
+
+.metal{
+    padding: 3% 5.5%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5vh;
+    font-size: 120%;
+    color:rgb(0, 0, 91);
+    align-items: center;
+    justify-content:flex-start;
+
+}
+
+.senai{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10%; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    width: 1%;
+    height: 1%;
+    background-image: url(Imagens/senai.png);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 10vh;
+    font-size: 3rem;
+    
+
+}
+
+.cdr{
+    padding: 3% 4.7%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    background-color: rgb(158, 175, 203);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5vh;
+    font-size: 120%;
+    color:rgb(0, 0, 91);
+    align-items: center;
+    justify-content:flex-start;
+
+}
